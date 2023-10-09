@@ -1,0 +1,16 @@
+#include <stdio.h> 
+#include <stdlib.h>
+
+int main() {
+
+int tableau[] = {10, 5, 20, 25, 15}; int taille = sizeof(tableau)/sizeof(tableau[0]);
+
+int plusGrand = tableau[0];
+
+for (int i = 1; i < taille; i++) { if (tableau[i] > plusGrand) { plusGrand = tableau[i]; } }
+
+printf("Le plus grand nombre dans le tableau est : %d\n", plusGrand);
+
+return 0;
+
+}
