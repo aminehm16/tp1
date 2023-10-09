@@ -1,0 +1,9 @@
+Qst1
+
+#include <stdio.h> #include <stdlib.h>
+
+int main() { char nom[100];
+
+printf("Veuillez entrer votre nom : "); scanf("%s", nom); printf("Bienvenue, %s !\n", nom);
+
+return 0;
