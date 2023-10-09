@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int sommeElements(int tableau[], int taille) { 
+int somme = 0;
+for (int i = 0; i < taille; i++) { 
+somme += tableau[i]; } return somme; }
+
+
+return 0;
+
+}
